@@ -9,10 +9,12 @@ public class Main {
         PetFactory dogFactory = new DogFactory();
         Pet dog = dogFactory.createPet();
         dog.sonido();
+        dog.comer();
 
         PetFactory catFactory = new CatFactory();
         Pet cat = catFactory.createPet();
         cat.sonido();
+        cat.comer();
 
     }
 }
