@@ -1,7 +1,6 @@
 package DecoradorConcreto;
 
 import Componente.HeladoComponente;
-import ComponenteConcreto.HeladoComponenteConcreto;
 import Decorador.ToppingDecorador;
 
 public class Fresas extends ToppingDecorador {

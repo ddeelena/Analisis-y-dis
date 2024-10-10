@@ -1,7 +1,6 @@
 package DecoradorConcreto;
 
 import Componente.HeladoComponente;
-import ComponenteConcreto.HeladoComponenteConcreto;
 import Decorador.ToppingDecorador;
 
 public class Gomitas extends ToppingDecorador {
@@ -12,7 +11,7 @@ public class Gomitas extends ToppingDecorador {
 
     @Override
     public String getDescription() {
-        return helado.getDescription() + " con Gomitas";
+        return helado.getDescription() + "con Gomitas";
     }
 
     @Override
