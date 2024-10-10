@@ -5,6 +5,7 @@ import Interfaces.Color;
 
 public class Triangle extends Shape {
 
+    // Constructor que recibe un objeto de tipo color, que pasa a la clase padre
     public Triangle(Color color) {
         super(color);
     }

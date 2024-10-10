@@ -5,6 +5,7 @@ import Interfaces.Color;
 
 public class Circle extends Shape {
 
+    // Constructor que recibe un objeto de tipo color, que pasa a la clase padre
     public Circle(Color color) {
         super(color);
     }
